@@ -1,0 +1,388 @@
+{
+  "analyses": [
+    {
+      "risk_level": "SUSPICIOUS",
+      "risk_score": 0.32,
+      "keyword_score": 0.16,
+      "pattern_score": 0.0,
+      "caps_score": 0.15,
+      "ml_score": 1.0,
+      "keywords_found": [
+        "ΕΠΙΒΕΒΑΙΩΣΗ",
+        "ΑΜΕΣΑ",
+        "ΛΟΓΑΡΙΑΣΜΟΣ",
+        "ΑΣΦΑΛΕΙΑ",
+        "ΑΝΑΣΤΟΛΗ",
+        "ΒΕΒΑΙΩΣΗ",
+        "ΠΡΟΣΒΑΣΗ",
+        "ΤΡΑΠΕΖΑ"
+      ],
+      "patterns_found": {
+        "suspicious_phrases": 0,
+        "capitalization_issues": [
+          "Excessive ALL CAPS (64 words)"
+        ]
+      },
+      "analysis_id": "analysis_20251115_153333_793808",
+      "subject": "Analysis",
+      "email_length": 551,
+      "timestamp": "2025-11-15T15:33:33.793826"
+    },
+    {
+      "risk_level": "SUSPICIOUS",
+      "risk_score": 0.32,
+      "keyword_score": 0.16,
+      "pattern_score": 0.0,
+      "caps_score": 0.15,
+      "ml_score": 1.0,
+      "keywords_found": [
+        "ΕΠΙΒΕΒΑΙΩΣΗ",
+        "ΑΜΕΣΑ",
+        "ΛΟΓΑΡΙΑΣΜΟΣ",
+        "ΑΣΦΑΛΕΙΑ",
+        "ΑΝΑΣΤΟΛΗ",
+        "ΒΕΒΑΙΩΣΗ",
+        "ΠΡΟΣΒΑΣΗ",
+        "ΤΡΑΠΕΖΑ"
+      ],
+      "patterns_found": {
+        "suspicious_phrases": 0,
+        "capitalization_issues": [
+          "Excessive ALL CAPS (64 words)"
+        ]
+      },
+      "analysis_id": "analysis_20251115_153341_424138",
+      "subject": "Analysis",
+      "email_length": 551,
+      "timestamp": "2025-11-15T15:33:41.424179"
+    },
+    {
+      "risk_level": "DANGEROUS",
+      "risk_score": 0.61,
+      "keyword_score": 0.2,
+      "pattern_score": 0.7,
+      "caps_score": 0.5,
+      "ml_score": 1.0,
+      "keywords_found": [
+        "verify",
+        "update",
+        "microsoft",
+        "irs",
+        "VERIFY",
+        "UPDATE",
+        "MICROSOFT",
+        "IRS",
+        "scam",
+        "hack"
+      ],
+      "patterns_found": {
+        "urls": [
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20ID%20Verified%20CS%20AOC%20CA%2001.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400d\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002Xhttp://www.microsoft.com/pkiops/certs/Microsoft%20ID%20Verified%20CS%20AOC%20CA%2001.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0f\u0006\u0003U",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\b\u0006\u0006g",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0019\u0006",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20ID%20Verified%20Code%20Signing%20PCA%202021.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400m\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002ahttp://www.microsoft.com/pkiops/certs/Microsoft%20ID%20Verified%20Code%20Signing%20PCA%202021.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0019\u0006",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002uhttp://www.microsoft.com/pkiops/certs/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0013\u0006\u0003U",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002uhttp://www.microsoft.com/pkiops/certs/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crt0",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Public%20RSA%20Timestamping%20CA%202020.crl0y\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u0004m0k0i\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002]http://www.microsoft.com/pkiops/certs/Microsoft%20Public%20RSA%20Timestamping%20CA%202020.crt0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\b\u0006\u0006g",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20ID%20Verified%20CS%20AOC%20CA%2001.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400d\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002Xhttp://www.microsoft.com/pkiops/certs/Microsoft%20ID%20Verified%20CS%20AOC%20CA%2001.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0f\u0006\u0003U",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\b\u0006\u0006g",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0019\u0006",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20ID%20Verified%20Code%20Signing%20PCA%202021.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400m\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002ahttp://www.microsoft.com/pkiops/certs/Microsoft%20ID%20Verified%20Code%20Signing%20PCA%202021.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0019\u0006",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002uhttp://www.microsoft.com/pkiops/certs/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0013\u0006\u0003U",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002uhttp://www.microsoft.com/pkiops/certs/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crt0",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Public%20RSA%20Timestamping%20CA%202020.crl0y\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u0004m0k0i\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002]http://www.microsoft.com/pkiops/certs/Microsoft%20Public%20RSA%20Timestamping%20CA%202020.crt0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\b\u0006\u0006g"
+        ],
+        "emails": [
+          "HB1C@3sL.xP",
+          "1K@q1.by",
+          "MZ@ei1.brrUX",
+          "BC@dG.PNbw",
+          "SP@pi.op",
+          "SyO17@s83.lpO",
+          "V@RU.RfniZNT",
+          "m@c.ECi",
+          "3ZpT@ZC.DZ",
+          "K9B@L.Hv",
+          "O6@V.VJ",
+          "3QI@UJ.dB",
+          "yDAw5@s.jcg",
+          "5@z.SSxz",
+          "Ij@rx.mz",
+          "F@PD.Nx",
+          "f@TOlZ6k.CEk",
+          "tjx@v.df",
+          "_d4@w.MU",
+          "S@m.zRg",
+          "P@R6.rf",
+          "U@W.vu",
+          "x@gei.SHq",
+          "1@rTz5.wJ",
+          "K@J.hG",
+          "DCv@N2.FJW",
+          "w@a.cE",
+          "O6@cvmT.t.aO",
+          "U@c.dW",
+          "%@C.Upr",
+          "l@Hs..vMS",
+          "SgW@v.BNtHG",
+          "+RFI@6.BcQT",
+          "9@..ıtQ",
+          "0g@FSux.Isg",
+          "vPv@I.hB"
+        ],
+        "ips": [
+          "1.0.0.0",
+          "6.0.0.0"
+        ],
+        "suspicious_phrases": 0,
+        "capitalization_issues": [
+          "Excessive ALL CAPS (87090 words)",
+          "Multiple urgent capitalized words",
+          "Abnormal mixed capitalization (39781 instances)"
+        ]
+      },
+      "analysis_id": "analysis_20251115_153436_161059",
+      "subject": "Analysis",
+      "email_length": 15406860,
+      "timestamp": "2025-11-15T15:34:36.161104"
+    },
+    {
+      "risk_level": "DANGEROUS",
+      "risk_score": 0.61,
+      "keyword_score": 0.2,
+      "pattern_score": 0.7,
+      "caps_score": 0.5,
+      "ml_score": 1.0,
+      "keywords_found": [
+        "verify",
+        "update",
+        "microsoft",
+        "irs",
+        "VERIFY",
+        "UPDATE",
+        "MICROSOFT",
+        "IRS",
+        "scam",
+        "hack"
+      ],
+      "patterns_found": {
+        "urls": [
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20ID%20Verified%20CS%20AOC%20CA%2001.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400d\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002Xhttp://www.microsoft.com/pkiops/certs/Microsoft%20ID%20Verified%20CS%20AOC%20CA%2001.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0f\u0006\u0003U",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\b\u0006\u0006g",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0019\u0006",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20ID%20Verified%20Code%20Signing%20PCA%202021.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400m\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002ahttp://www.microsoft.com/pkiops/certs/Microsoft%20ID%20Verified%20Code%20Signing%20PCA%202021.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0019\u0006",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002uhttp://www.microsoft.com/pkiops/certs/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0013\u0006\u0003U",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002uhttp://www.microsoft.com/pkiops/certs/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crt0",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Public%20RSA%20Timestamping%20CA%202020.crl0y\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u0004m0k0i\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002]http://www.microsoft.com/pkiops/certs/Microsoft%20Public%20RSA%20Timestamping%20CA%202020.crt0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\b\u0006\u0006g",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20ID%20Verified%20CS%20AOC%20CA%2001.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400d\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002Xhttp://www.microsoft.com/pkiops/certs/Microsoft%20ID%20Verified%20CS%20AOC%20CA%2001.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0f\u0006\u0003U",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\b\u0006\u0006g",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0019\u0006",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20ID%20Verified%20Code%20Signing%20PCA%202021.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400m\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002ahttp://www.microsoft.com/pkiops/certs/Microsoft%20ID%20Verified%20Code%20Signing%20PCA%202021.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0019\u0006",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002uhttp://www.microsoft.com/pkiops/certs/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001!http://oneocsp.microsoft.com/ocsp0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\u0013\u0006\u0003U",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crl0\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u000400\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002uhttp://www.microsoft.com/pkiops/certs/Microsoft%20Identity%20Verification%20Root%20Certificate%20Authority%202020.crt0",
+          "http://www.microsoft.com/pkiops/crl/Microsoft%20Public%20RSA%20Timestamping%20CA%202020.crl0y\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u0004m0k0i\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002]http://www.microsoft.com/pkiops/certs/Microsoft%20Public%20RSA%20Timestamping%20CA%202020.crt0",
+          "http://www.microsoft.com/pkiops/Docs/Repository.htm0\b\u0006\u0006g"
+        ],
+        "emails": [
+          "HB1C@3sL.xP",
+          "1K@q1.by",
+          "MZ@ei1.brrUX",
+          "BC@dG.PNbw",
+          "SP@pi.op",
+          "SyO17@s83.lpO",
+          "V@RU.RfniZNT",
+          "m@c.ECi",
+          "3ZpT@ZC.DZ",
+          "K9B@L.Hv",
+          "O6@V.VJ",
+          "3QI@UJ.dB",
+          "yDAw5@s.jcg",
+          "5@z.SSxz",
+          "Ij@rx.mz",
+          "F@PD.Nx",
+          "f@TOlZ6k.CEk",
+          "tjx@v.df",
+          "_d4@w.MU",
+          "S@m.zRg",
+          "P@R6.rf",
+          "U@W.vu",
+          "x@gei.SHq",
+          "1@rTz5.wJ",
+          "K@J.hG",
+          "DCv@N2.FJW",
+          "w@a.cE",
+          "O6@cvmT.t.aO",
+          "U@c.dW",
+          "%@C.Upr",
+          "l@Hs..vMS",
+          "SgW@v.BNtHG",
+          "+RFI@6.BcQT",
+          "9@..ıtQ",
+          "0g@FSux.Isg",
+          "vPv@I.hB"
+        ],
+        "ips": [
+          "1.0.0.0",
+          "6.0.0.0"
+        ],
+        "suspicious_phrases": 0,
+        "capitalization_issues": [
+          "Excessive ALL CAPS (87090 words)",
+          "Multiple urgent capitalized words",
+          "Abnormal mixed capitalization (39781 instances)"
+        ]
+      },
+      "analysis_id": "analysis_20251115_153458_592697",
+      "subject": "Analysis",
+      "email_length": 15406860,
+      "timestamp": "2025-11-15T15:34:58.592734"
+    },
+    {
+      "risk_level": "SAFE",
+      "risk_score": 0.117,
+      "keyword_score": 0.02,
+      "pattern_score": 0.0,
+      "caps_score": 0.0,
+      "ml_score": 0.448,
+      "keywords_found": [
+        "αίτηση"
+      ],
+      "patterns_found": {
+        "suspicious_phrases": 0
+      },
+      "analysis_id": "analysis_20251115_154549_905168",
+      "subject": "Analysis",
+      "email_length": 312,
+      "timestamp": "2025-11-15T15:45:49.905187"
+    },
+    {
+      "risk_level": "SAFE",
+      "risk_score": 0.117,
+      "keyword_score": 0.02,
+      "pattern_score": 0.0,
+      "caps_score": 0.0,
+      "ml_score": 0.448,
+      "keywords_found": [
+        "αίτηση"
+      ],
+      "patterns_found": {
+        "suspicious_phrases": 0
+      },
+      "analysis_id": "analysis_20251115_154550_244638",
+      "subject": "Analysis",
+      "email_length": 312,
+      "timestamp": "2025-11-15T15:45:50.244669"
+    },
+    {
+      "risk_level": "DANGEROUS",
+      "risk_score": 0.572,
+      "keyword_score": 0.1,
+      "pattern_score": 1.0,
+      "caps_score": 0.0,
+      "ml_score": 0.986,
+      "keywords_found": [
+        "update",
+        "UPDATE",
+        "ενημέρωση",
+        "κάντε κλικ",
+        "χρέωση"
+      ],
+      "patterns_found": {
+        "urls": [
+          "http://192.168.1.1/dimos-update/"
+        ],
+        "ips": [
+          "192.168.1.1"
+        ],
+        "suspicious_phrases": 0
+      },
+      "analysis_id": "analysis_20251115_154554_401005",
+      "subject": "Analysis",
+      "email_length": 307,
+      "timestamp": "2025-11-15T15:45:54.401050"
+    }
+  ],
+  "threats": [
+    {
+      "threat_id": "analysis_20251115_153333_793808",
+      "subject": "Analysis",
+      "risk_level": "SUSPICIOUS",
+      "risk_score": 0.32,
+      "timestamp": "2025-11-15T15:33:38.830806",
+      "keywords": [
+        "ΕΠΙΒΕΒΑΙΩΣΗ",
+        "ΑΜΕΣΑ",
+        "ΛΟΓΑΡΙΑΣΜΟΣ",
+        "ΑΣΦΑΛΕΙΑ",
+        "ΑΝΑΣΤΟΛΗ"
+      ]
+    },
+    {
+      "threat_id": "analysis_20251115_153341_424138",
+      "subject": "Analysis",
+      "risk_level": "SUSPICIOUS",
+      "risk_score": 0.32,
+      "timestamp": "2025-11-15T15:33:45.962410",
+      "keywords": [
+        "ΕΠΙΒΕΒΑΙΩΣΗ",
+        "ΑΜΕΣΑ",
+        "ΛΟΓΑΡΙΑΣΜΟΣ",
+        "ΑΣΦΑΛΕΙΑ",
+        "ΑΝΑΣΤΟΛΗ"
+      ]
+    },
+    {
+      "threat_id": "analysis_20251115_153436_161059",
+      "subject": "Analysis",
+      "risk_level": "DANGEROUS",
+      "risk_score": 0.61,
+      "timestamp": "2025-11-15T15:34:39.019404",
+      "keywords": [
+        "verify",
+        "update",
+        "microsoft",
+        "irs",
+        "VERIFY"
+      ]
+    },
+    {
+      "threat_id": "analysis_20251115_153458_592697",
+      "subject": "Analysis",
+      "risk_level": "DANGEROUS",
+      "risk_score": 0.61,
+      "timestamp": "2025-11-15T15:34:58.658199",
+      "keywords": [
+        "verify",
+        "update",
+        "microsoft",
+        "irs",
+        "VERIFY"
+      ]
+    },
+    {
+      "threat_id": "analysis_20251115_154554_401005",
+      "subject": "Analysis",
+      "risk_level": "DANGEROUS",
+      "risk_score": 0.572,
+      "timestamp": "2025-11-15T15:45:54.422782",
+      "keywords": [
+        "update",
+        "UPDATE",
+        "ενημέρωση",
+        "κάντε κλικ",
+        "χρέωση"
+      ]
+    }
+  ]
+}
